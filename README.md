@@ -1,2 +1,26 @@
-# aws-cloudformation-ec2-devops-project
-AWS DevOps project demonstrating Infrastructure as Code using AWS CloudFormation to automatically deploy an EC2 instance and configure security groups for web server hosting.
+# AWS CloudFormation EC2 Deployment
+
+This project demonstrates Infrastructure as Code using AWS CloudFormation.
+
+## Services Used
+
+- AWS CloudFormation
+- Amazon EC2
+- Security Groups
+- Apache Web Server
+
+## Architecture
+
+User → Internet → Security Group → EC2 Instance → Apache Web Server
+
+## Deployment Steps
+
+1. Create CloudFormation template
+2. Deploy stack using AWS CloudFormation
+3. Automatically launch EC2 instance
+4. Install Apache web server
+5. Host web application
+
+## Purpose
+
+This project demonstrates how DevOps engineers automate cloud infrastructure using Infrastructure as Code (IaC).
